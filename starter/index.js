@@ -29,20 +29,24 @@ const questions = [
         type: "list",
         name: "license",
         message: "Tell us what license your project has:"
-        choices: ["Boost1.0", "MIT", "APACHE2.0", "Chrome", "BSD2", "BSD3", "GPL3.0", "None"]
+        choices: ["Boost1.0", "MIT", "APACHE2.0", "Mozilla", "BSD2", "BSD3", "GPL3.0", "None"]
     },
     {
         type: "input",
         name: "Contributors",
-        message: "List anyone who contributed to this project"
+        message: "Who else contributed to this project?"
     
     },
     {
         type: "input",
         name: "reponame",
         message: "What is your repository name for the ReadME?"
-    }
-    
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "How is application being used?"
+    },
 
 
 ];
