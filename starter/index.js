@@ -29,7 +29,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Tell us what license your project has:"
-        choices: ["Boost1.0", "MIT", "APACHE2.0", "Mozilla", "BSD2", "BSD3", "GPL3.0", "None"]
+        choices: ["Boost1.0", "MIT", "APACHE2.0", "CDDL1.0", "BSD2", "BSD3", "GPL3.0", "None"]
     },
     {
         type: "input",
@@ -53,6 +53,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // function to initialize program
