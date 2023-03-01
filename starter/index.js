@@ -15,7 +15,35 @@ const questions = [
         name: "email",
         message: "What is your email address?"
     },
+    {
+        type: "input",
+        name: "title",
+        message: "Tell us your project name"
+    },
+    {
+        type: "input",
+        name: "title",
+        message: "Describe what your project is about:"        
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Tell us what license your project has:"
+        choices: ["Boost1.0", "MIT", "APACHE2.0", "Chrome", "BSD2", "BSD3", "GPL3.0", "None"]
+    },
+    {
+        type: "input",
+        name: "Contributors",
+        message: "List anyone who contributed to this project"
     
+    },
+    {
+        type: "input",
+        name: "reponame",
+        message: "What is your repository name for the ReadME?"
+    }
+    
+
 
 ];
 
