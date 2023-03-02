@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const { default: Choices } = require("inquirer/lib/objects/choices");
 
 // array of questions for user
 const questions = [
@@ -28,7 +29,7 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "Tell us what license your project has:"
+        message: "Tell us what license your project has:",
         choices: ["Boost1.0", "MIT", "APACHE2.0", "CDDL1.0", "BSD2", "BSD3", "GPL3.0", "None"]
     },
     {
@@ -59,9 +60,9 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-    .then((inquirerAnswers) => {
+    .then((data) => {
         console.log("Please wait...");
-        writeToFile("./readme-generator/README.md", generateMarkdown({inquirerAnswers}));
+        writeToFile("./readme-generator/README.md", generateMarkdown({data}));
     })
 
 }
