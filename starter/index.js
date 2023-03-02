@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-const { default: Choices } = require("inquirer/lib/objects/choices");
+
 
 // array of questions for user
 const questions = [
