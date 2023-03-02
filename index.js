@@ -62,7 +62,7 @@ function init() {
     inquirer.prompt(questions)
     .then((data) => {
         console.log("Please wait...");
-        writeToFile("./readme-generator/README.md", generateMarkdown({data}));
+        writeToFile("./generated-readme/README.md", generateMarkdown({data}));
     })
 
 }
