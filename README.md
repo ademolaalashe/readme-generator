@@ -5,8 +5,10 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [Questions](#questions)
+  - [Screenshot](#screenshot)
+  - [Credits](#credits)
+  - [License](#license)
 
  ## Description:
 
@@ -31,6 +33,7 @@ This command-line application dynamically generates a professional README.md fil
   - Github: [ademolaalashe](https://github.com/ademolaalashe)
   - Email: aalashe@gmail.com
   
+  ## Screenshot
   ![FDR](https://github.com/ademolaalashe/readme-generator/blob/main/utils/readme-generator.png)
 
   ## Credits
