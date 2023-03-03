@@ -1,4 +1,4 @@
-# undefined
+# Readme Generator
 
   ## Table of Contents 
   - [Description](#description)
@@ -9,22 +9,22 @@
   - [Questions](#questions)
 
   ## Description:
-  undefined
+  Generating a readme
 
   ## Installation:
-  undefined
+  From the web app
 
   ## Usage
-  undefined
+  See page 'how to' section 
 
   ## Contribution:
-  undefined
+  See "How to contribute" page in GitHub profile
 
   ## Testing
-  undefined
+  Not applicable
   
   ## Questions
-  - Github: [undefined](https://github.com/undefined)
-  - Email: undefined
+  - Github: [ademolaalashe](https://github.com/ademolaalashe)
+  - Email: aalashe@gmail.com
   ## License
-  undefined
+  APACHE2.0
