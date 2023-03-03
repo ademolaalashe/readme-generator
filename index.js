@@ -74,6 +74,7 @@ function init() {
     .then((data) => {
         console.log("Please wait...");
         writeToFile("./generated-readme/README.md", generateMarkdown(data));
+        console.log("Success!");
     })
     .catch((error) => console.error(error));
 
