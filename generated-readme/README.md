@@ -1,4 +1,5 @@
 # Readme Generator
+  ![License](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
 
   ## Table of Contents 
   - [Description](#description)
@@ -9,19 +10,19 @@
   - [Questions](#questions)
 
   ## Description:
-  Generating a readme
+  Generate readme
 
   ## Installation:
-  From the web app
+  N/A
 
   ## Usage
-  See page 'how to' section 
+  N/A
 
   ## Contribution:
-  See "How to contribute" page in GitHub profile
+  N/A
 
   ## Testing
-  Not applicable
+  N/A
   
   ## Questions
   - Github: [ademolaalashe](https://github.com/ademolaalashe)
