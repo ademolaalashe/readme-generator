@@ -73,8 +73,9 @@ function init() {
     inquirer.prompt(questions)
     .then((data) => {
         console.log("Please wait...");
-        writeToFile("./generated-readme/README.md", generateMarkdown({data}));
+        writeToFile("./generated-readme/README.md", generateMarkdown(data));
     })
+    .catch((error) => console.error(error));
 
 }
 
