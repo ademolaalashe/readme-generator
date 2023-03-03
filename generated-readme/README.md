@@ -28,4 +28,4 @@
   - Github: [ademolaalashe](https://github.com/ademolaalashe)
   - Email: aalashe@gmail.com
   ## License
-  APACHE2.0
+  This project is licensed under APACHE2.0 license.
