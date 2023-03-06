@@ -32,6 +32,7 @@ This command-line application dynamically generates a professional README.md fil
   ## Questions
   - Github: [ademolaalashe](https://github.com/ademolaalashe)
   - Email: aalashe@gmail.com
+  - Repository: [Readme Generator](https://github.com/ademolaalashe/readme-generator)
   
   ## Screenshot
   ![FDR](https://github.com/ademolaalashe/readme-generator/blob/main/utils/readme-generator.png)
