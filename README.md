@@ -43,6 +43,8 @@ This command-line application dynamically generates a professional README.md fil
 - [npm](https://www.npmjs.com/)
 - [Inquirer](https://www.npmjs.com/package/inquirer)
 - [Badges](shields.io)
+- BootCamp class
+
 
 
   ## License
